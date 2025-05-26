@@ -1,6 +1,7 @@
 nav {
   background-color: darkblue;
   padding: 10px
+  
 }
 nav a {
   color: white;
@@ -15,6 +16,7 @@ img {width: 150px;
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  
 }
 p{
   padding: 10px;
