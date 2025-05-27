@@ -40,8 +40,7 @@ main img{
   width: 150px;
   height: auto
 }
-p {padding: 0px;
-}
+p {padding: 0px;}
 footer{
   margin-top: 10px;
   border-top: 5px solid grey;
