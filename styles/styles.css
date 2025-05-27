@@ -4,9 +4,9 @@ nav {
   
 }
 nav a {
-  color: white;
-  display: block;
-  padding: 20px;
+  color: white; 
+  display: 
+  block;padding: 20px;
 }
 h1 {
   color: darkblue;
@@ -20,4 +20,30 @@ img {width: 150px;
 }
 p{
   padding: 10px;
+}
+main {
+  max-width: 840px;
+}
+aside {
+  width:350px;
+  margin:5px;
+  border:10px;
+  padding:5px;
+  background-color:gray;
+  color: white;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+main img{
+  width: 150px;
+  height: auto
+}
+p{padding: 0px
+}
+footer{
+  margin-top: 10px;
+  border-top: 5px solid grey;
+  text-align: center;
 }
