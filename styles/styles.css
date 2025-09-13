@@ -40,6 +40,10 @@ aside img{
     height: auto;
 }
 
+main{
+    max-width: 60%;
+}
+
 main img{
     max-width: 150px;
     height:auto;
