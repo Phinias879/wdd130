@@ -1,5 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 600px;
 }
 
 header {
@@ -7,28 +8,30 @@ header {
     padding: 1px;
     color: white;
     text-align: center;
-    width: 600px;
+    max-width: 600px;
 }
 
 h1 {
     text-align: center;
-    width: 600px;
+    max-width: 600px;
     font-size: large;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main img {
-    height: 250px;
-    width: 300px;
+    height: auto;
+    max-width: 300px;
     box-shadow: 0 0 30px rgb(59, 57, 57);
-    margin: 2px 155px 1px 155px;
+    margin-left: 120px;
 
 }
 
 section {
     background-color: rgb(195, 191, 165);
-    margin-left: 155px;
-    margin-right: 67%;
+    max-width: 300px;
+    margin-left: 120px;
+
 }
 
 section h2 {
@@ -50,5 +53,5 @@ footer {
     padding: 1px;
     color: white;
     text-align: center;
-    width: 600px;
+    max-width: 600px;
 }
