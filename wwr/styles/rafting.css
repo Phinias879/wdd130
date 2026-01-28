@@ -23,9 +23,8 @@ footer {
     margin: 0 auto;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
-
 }
 
 .hero {
@@ -38,7 +37,7 @@ footer {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 10px;
     text-align: center;
@@ -50,7 +49,7 @@ h1 {
     padding: 10px;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 10%;
     padding: 10px;
@@ -64,4 +63,9 @@ article {
     float: right;
     width: 100px;
     height: 120px;
+}
+
+header nav a {
+    margin-right: 10px;
+
 }
