@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(241, 236, 236);
-    --secondary-color: rgb(123, 178, 178);
+    --secondary-color: rgb(17, 186, 186);
     --content-color: rgba(79, 79, 71, 0.819);
     --head-font: "Times New Romans", "Sans Serrif";
     --body-font: "Verdana";
@@ -25,7 +25,7 @@ footer {
 
 .socialmedia {
     text-decoration: none;
-    ;
+
 }
 
 .hero {
