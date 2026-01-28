@@ -25,10 +25,13 @@ footer {
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
     position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hero img {
@@ -56,7 +59,6 @@ footer {
     margin: 10px;
     background-color: var(--content-color);
     color: var(--primary-color);
-
 }
 
 .hero article img {
@@ -65,7 +67,12 @@ footer {
     height: 120px;
 }
 
-header nav a {
-    margin-right: 10px;
+main {
+    margin-bottom: 10px;
+}
 
+section,
+h2,
+footer p {
+    margin-bottom: 10px;
 }
