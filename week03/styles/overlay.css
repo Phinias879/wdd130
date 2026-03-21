@@ -19,6 +19,8 @@ h1 {
     margin: 10px auto;
     /* position: relative; */
     /* If removed, what happens? */
+    /* when it is removed, the start class goes all the way down to the main HTML page 
+    as it does not have a reference (parent) area to position its self */
 }
 
 .herodiv img {
