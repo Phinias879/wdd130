@@ -4,7 +4,7 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 10px 20px 10px;
+    padding: 10px;
 
 }
 
@@ -15,20 +15,18 @@
     padding: 2px;
     background-color: whitesmoke;
     border: solid black;
-    margin: 5px;
+    margin-left: 5px;
 }
 
 blockquote {
-    margin-left: 2px;
-    margin-bottom: 2px;
+    margin: 2px;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     line-height: 25px;
-    border-bottom: dotted white;
-
+    border-bottom: 2px dotted white;
 }
 
 cite {
-    margin-left: 330px;
-
+    display: block;
+    text-align: right;
 }
