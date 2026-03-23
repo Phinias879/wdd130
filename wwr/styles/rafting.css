@@ -1,0 +1,86 @@
+:root {
+    --backround-color: rgba(0, 0, 0, 0.62);
+    --foreground-color: white;
+    --accent-color: black;
+    --category-color: rgb(71, 1, 1);
+    --paragraph-fontfamily: 'sans-serif';
+    --paragraph-line-height: 25px;
+    --heading-font: 'verdana';
+    --color-section: rgb(1, 1, 124);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-fontfamily);
+    color: var(--accent-color);
+    line-height: var(--paragraph-line-height);
+}
+
+header,
+main,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    background-color: var(--backround-color);
+    color: var(--foreground-color);
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 350px;
+    background-color: var(--category-color);
+    color: var(--foreground-color);
+    padding: 20px;
+    margin: 20px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.hero section {
+    color: var(--color-section);
+
+}
