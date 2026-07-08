@@ -61,6 +61,7 @@ section {
 section h2 {
     border-bottom: 2px solid black;
     margin: 5px;
+    padding: 5px;
 }
 
 section ul {
