@@ -37,7 +37,7 @@ h1 {
 }
 
 main img {
-    width: 30%;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     border-radius: 10px;
@@ -55,13 +55,13 @@ p {
 }
 
 main {
-    max-width: 35%;
+    max-width: 500px;
     margin: 20px;
 
 }
 
 aside {
-    max-width: 35%;
+    max-width: 500px;
     border-radius: 15px;
     color: rgb(14, 68, 105);
     line-height: 20px;
