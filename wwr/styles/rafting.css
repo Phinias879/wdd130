@@ -2,7 +2,6 @@
     --primary-color: rgba(227, 227, 105, 0.831);
     --paragraph-color: black;
     --heading-color: rgba(23, 11, 11, 0.845);
-    --heading-font: Times New Roman;
     --paragraph-font: sans-serif;
     --background-color: rgba(104, 253, 253, 0.929);
     --body-font: Arial;
@@ -30,16 +29,6 @@ h2 {
     color: var(--heading-color);
 }
 
-.hero h1 {
-    position: absolute;
-    top: 50px;
-    width: 100%;
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 20px;
-
-}
-
 nav,
 p,
 section,
@@ -61,16 +50,24 @@ article {
     max-width: 840px;
 }
 
-article {
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.hero article {
     position: absolute;
     background-color: var(--background-color);
     border: 2px solid rgba(8, 172, 172, 0.582);
     border-radius: 10px;
     bottom: 80px;
-
 }
 
-article img {
+.hero article img {
     float: right;
     width: 120px;
     height: 120px;
