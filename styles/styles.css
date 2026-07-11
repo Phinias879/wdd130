@@ -44,7 +44,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 20%;
 }
 
 p {
@@ -55,13 +55,13 @@ p {
 }
 
 main {
-    max-width: 500px;
+    max-width: 600px;
     margin: 20px;
 
 }
 
 aside {
-    max-width: 500px;
+    max-width: 600px;
     border-radius: 15px;
     color: rgb(14, 68, 105);
     line-height: 20px;
