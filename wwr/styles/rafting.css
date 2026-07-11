@@ -1,8 +1,6 @@
 :root {
     --primary-color: rgba(227, 227, 105, 0.831);
-    --paragraph-color: black;
     --heading-color: rgba(23, 11, 11, 0.845);
-    --paragraph-font: sans-serif;
     --background-color: rgba(104, 253, 253, 0.929);
     --body-font: Arial;
 }
