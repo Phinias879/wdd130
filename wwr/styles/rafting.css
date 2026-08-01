@@ -71,3 +71,50 @@ article {
     padding: 5px;
 
 }
+
+header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: rgb(47, 76, 114);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 120px;
+}
+
+section {
+    display: flex;
+
+}
+
+section img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.325);
+    background-color: gray;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-size: small;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.nav a {}
