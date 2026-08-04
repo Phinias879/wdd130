@@ -94,14 +94,47 @@ header img {
     width: 120px;
 }
 
-section {
-    display: flex;
+.adventure {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(181, 177, 177);
+    gap: 0.3rem;
 
 }
 
+.adventure h2 {
+    grid-column: 1/-1;
+    text-align: center;
+    justify-self: center;
+    padding: 10px;
+
+}
+
+.adventure img {
+    width: 140px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(164, 196, 191);
+    width: 100%;
+    margin-left: 0;
+
+}
+
+section h2 {
+    grid-column: 1/-1;
+    text-align: center;
+    align-self: center;
+    margin: 20px;
+    padding: 20px;
+}
+
 section img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     padding: 5px;
     border: 2px solid rgba(0, 0, 0, 0.325);
     background-color: gray;
@@ -109,12 +142,20 @@ section img {
 }
 
 figcaption {
-    font-size: small;
+    font-size: smaller;
+
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+    display: flex;
+    background-color: rgba(3, 3, 3, 0.781);
+    color: white;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav a {}
+footer img {
+    width: 30px;
+    padding: 3px;
+}
