@@ -150,7 +150,7 @@ figcaption {
     margin-bottom: 15px;
 }
 
-.address h2,
+.address h1,
 p {
     text-align: center;
     margin: 10px 0;
@@ -194,24 +194,24 @@ p {
     width: 60%;
     margin-bottom: 10px;
     padding: 10px;
-    ;
+}
 
-    .details iframe {
-        border: 2px solid rgba(201, 199, 199, 0);
-        width: 75%;
-        height: 300px;
-    }
+.details iframe {
+    border: 2px solid rgba(201, 199, 199, 0);
+    width: 75%;
+    height: 300px;
+}
 
-    footer {
-        display: flex;
-        background-color: rgba(3, 3, 3, 0.781);
-        color: white;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
+footer {
+    display: flex;
+    background-color: rgba(3, 3, 3, 0.781);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
-    .socialmedia img {
-        width: 30px;
-        padding: 3px;
-    }
+.socialmedia img {
+    width: 30px;
+    padding: 3px;
+}
