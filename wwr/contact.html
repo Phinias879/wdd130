@@ -30,17 +30,27 @@
         </div>
 
         <section class="details">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d506980.9389656632!2d39.07925829821863!3d-6.915861397925936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skigamboni%20dege%20beach!5e0!3m2!1sen!2stz!4v1786226487263!5m2!1sen!2stz"
-              allowfullscreen="" loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <div class="google-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d506980.9389656632!2d39.07925829821863!3d-6.915861397925936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skigamboni%20dege%20beach!5e0!3m2!1sen!2stz!4v1786226487263!5m2!1sen!2stz"
+                  allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
             <form class="form">
                 <label for="name">Name: </label>
-                <input type="text" id="name" name="name">
-
+                <input type="text" id="name" name="name" placeholder="John Doe">
                 <label for="email">E-Mail: </label>
-                <input type="text" id="email" name="email">
+                <input type="text" id="email" name="email" placeholder="user@mail.com">
             </form>
+            <radio class="radio">
+                <p>Message Purpose</p>
+                <label for="inquiry">General Inquiry</label>
+                <input type="radio" id="inquiry" name="inquiry">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="reservation" name="inquiry">
+                <label for="inquiry">Website Suggestion</label>
+                <input type="radio" id="inquiry" name="inquiry">
+            </radio>
 
         </section>
 

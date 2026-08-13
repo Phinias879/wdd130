@@ -146,7 +146,8 @@ header img {
 
 }
 
-figcaption {
+figcaption,
+.houses figcaption {
     font-size: smaller;
     text-align: center;
     margin-bottom: 15px;
@@ -183,7 +184,7 @@ p {
 
 .details {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 35% 75%);
     margin: 35px 0 10px;
     padding: 10px 0;
     grid-template-columns: repeat(2, 1fr);
@@ -195,9 +196,13 @@ p {
 .news-later label,
 .news-later input {
     display: block;
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.radio {
+    display: grid
 }
 
 .news-later label {
@@ -221,12 +226,12 @@ footer {
 
 .news-later {
     padding: 20px 0;
-    width: 100%;
+    max-width: 840px;
     display: grid;
     grid-template-columns: repeat(2, 35% 65%);
     align-content: center;
     justify-items: center;
-    gap: 5px;
+    gap: 3px;
 }
 
 .news-later form button {
@@ -237,23 +242,91 @@ footer {
 .welcome-notice {
     background-color: rgba(5, 36, 79, 0.916);
     padding: 20px;
+
 }
 
-.welcome-notice h2 {
+.welcome-notice h2,
+.offers h1 {
     text-align: center;
     color: white;
 }
 
-.welcome-notice p {
+.welcome-notice p,
+.offers p {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 25px;
     font-family: var(--body-font);
     color: white;
 }
 
+.welcome-notice a {
+    color: rgb(247, 255, 4);
+}
+
+.houses,
+.outside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    padding: 20px 3px;
+    margin-bottom: 20px;
+}
+
+.houses h2,
+.outside h2 {
+    text-align: center;
+    align-self: center;
+    grid-column: -1/1;
+    margin-bottom: 10px;
+}
+
+.houses img,
+.outside img {
+    width: 160px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.trips-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(196, 235, 255);
+}
+
+.trips-images img {
+    width: 250px;
+    padding: 10px;
+
+}
+
 .offers {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 10px;
+    max-width: 100%;
+}
+
+.prices ul {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.introduction h1 .prices li {
+    margin: 50px 30px;
+}
+
+.prices h2 {
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
 }
 
 .social-media img {
