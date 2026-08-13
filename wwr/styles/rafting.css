@@ -13,6 +13,7 @@
 
 body {
     font-family: var(--body-font);
+    background-color: rgba(193, 244, 193, 0.142)
 }
 
 header,
@@ -34,12 +35,9 @@ article {
     padding: 5px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
+
 }
 
 .hero img {
@@ -99,9 +97,13 @@ header img {
     justify-items: center;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(215, 210, 210);
+    background-color: rgba(108, 101, 93, 0.251);
     padding: 10px;
     margin: 10px 0;
+}
+
+.history p {
+    text-align: left;
 }
 
 .history h2 {
@@ -113,7 +115,7 @@ header img {
 
 .history img {
     width: 250px;
-    height: 150px;
+    height: 130px;
     margin-bottom: 20px;
 
 }
@@ -124,7 +126,7 @@ header img {
     justify-items: center;
     width: 100%;
     grid-template-columns: repeat(5, 1fr);
-    background-color: rgb(215, 210, 210);
+    background-color: rgba(108, 101, 93, 0.251);
     padding: 10px;
     margin: 10px 0;
 }
@@ -163,7 +165,7 @@ p {
 .employee {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(215, 210, 210);
+    background-color: rgba(108, 101, 93, 0.251);
     align-items: center;
     justify-items: center;
     padding: 20px;
@@ -189,11 +191,17 @@ p {
 }
 
 .form label,
-.form input {
+.form input,
+.news-later label,
+.news-later input {
     display: block;
-    width: 60%;
+    width: 100%;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.news-later label {
+    color: white;
 }
 
 .details iframe {
@@ -211,7 +219,48 @@ footer {
     margin-bottom: 10px;
 }
 
-.socialmedia img {
+.news-later {
+    padding: 20px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 35% 65%);
+    align-content: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.news-later form button {
+    padding: 10px;
+
+}
+
+.welcome-notice {
+    background-color: rgba(5, 36, 79, 0.916);
+    padding: 20px;
+}
+
+.welcome-notice h2 {
+    text-align: center;
+    color: white;
+}
+
+.welcome-notice p {
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-family: var(--body-font);
+    color: white;
+}
+
+.offers {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.social-media img {
     width: 30px;
     padding: 3px;
+}
+
+.social-media a {
+    text-decoration: none;
 }
