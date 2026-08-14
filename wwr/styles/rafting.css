@@ -128,7 +128,7 @@ header img {
     grid-template-columns: repeat(5, 1fr);
     background-color: rgba(108, 101, 93, 0.251);
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0 0;
 }
 
 .adventure h2,
@@ -170,7 +170,6 @@ p {
     align-items: center;
     justify-items: center;
     padding: 20px;
-    margin-bottom: 10px;
     width: 100%;
 
 }
@@ -201,10 +200,6 @@ p {
     padding: 10px;
 }
 
-.radio {
-    display: grid
-}
-
 .news-later label {
     color: white;
 }
@@ -217,21 +212,19 @@ p {
 
 footer {
     display: flex;
-    background-color: rgba(3, 3, 3, 0.781);
+    background-color: rgb(16, 15, 15);
     color: white;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+
 }
 
 .news-later {
-    padding: 20px 0;
     max-width: 840px;
     display: grid;
     grid-template-columns: repeat(2, 35% 65%);
     align-content: center;
     justify-items: center;
-    gap: 3px;
 }
 
 .news-later form button {
@@ -260,7 +253,8 @@ footer {
     color: white;
 }
 
-.welcome-notice a {
+.welcome-notice a,
+.introduction a {
     color: rgb(247, 255, 4);
 }
 
@@ -291,18 +285,36 @@ footer {
     border-radius: 5px;
 }
 
-.trips-images {
+.trips {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-    background-color: rgb(196, 235, 255);
+    grid-template-columns: repeat(2, auto);
+    background-color: rgba(0, 31, 23, 0.616);
+    align-content: center;
+    justify-content: center;
+
+}
+
+.trips-images {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 31, 23, 0.616);
+    ;
 }
 
 .trips-images img {
-    width: 250px;
-    padding: 10px;
+    width: 175px;
+    height: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+    margin: 0 5px;
+}
 
+.trips-images figcaption {
+    text-align: left;
+    margin: 0 5px;
+    padding: 10px;
+    line-height: 20px;
+    color: white;
 }
 
 .offers {
@@ -312,21 +324,56 @@ footer {
 }
 
 .prices ul {
-    width: 100%;
     background-color: white;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 20px 50px;
 
 }
 
-.introduction h1 .prices li {
-    margin: 50px 30px;
+.introduction {
+    grid-column: -1/1;
+    background-color: rgba(0, 31, 23, 0.616)
+}
+
+.introduction h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.introduction p {
+    text-align: justify;
+    color: white;
+    padding: 0 20px;
+    margin-bottom: 40px;
+
+}
+
+.prices li {
+    margin: 30px 0;
+    padding: 0 0 0 20px;
+    line-height: 30px;
 }
 
 .prices h2 {
     text-align: center;
     background-color: white;
     padding-top: 20px;
+}
+
+.table tr,
+td,
+th {
+    padding: 25px;
+    background-color: rgba(17, 56, 88, 0.854);
+    color: white;
+    text-align: center;
+    font-size: 90%;
+}
+
+.table {
+    background-color: rgba(0, 31, 23, 0.616);
+    padding-right: 10px;
+
 }
 
 .social-media img {
