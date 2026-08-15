@@ -36,22 +36,35 @@
                   allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
-            <form class="form">
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" placeholder="John Doe">
-                <label for="email">E-Mail: </label>
-                <input type="text" id="email" name="email" placeholder="user@mail.com">
-            </form>
-            <radio class="radio">
-                <p>Message Purpose</p>
-                <label for="inquiry">General Inquiry</label>
-                <input type="radio" id="inquiry" name="inquiry">
-                <label for="reservation">Reservation Question</label>
-                <input type="radio" id="reservation" name="inquiry">
-                <label for="inquiry">Website Suggestion</label>
-                <input type="radio" id="inquiry" name="inquiry">
-            </radio>
-
+            <div class="container">
+                <div class="form">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="John Doe">
+                    <label for="email">E-Mail: </label>
+                    <input type="text" id="email" name="email" placeholder="user@mail.com">
+                </div>
+                <div class="inquiry">
+                    <label for="inquiry">General Inquiry</label>
+                    <input type="radio" id="inquiry" name="inquiry">
+                </div>
+                <div class="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="inquiry">
+                </div>
+                <div class="website-suggestion">
+                    <label for="inquiry">Website Suggestion</label>
+                    <input type="radio" id="inquiry" name="inquiry">
+                </div>
+                <div class="message">
+                    <label for="message">Message: </label>
+                    <input type="text" id="message" name="message" placeholder="type here">
+                </div>
+                <div class="check-box">
+                    <input type="checkbox" id="box" name="box">
+                    <label for="box">Please subscribe me to the monthly newslater</label>
+                </div>
+                <button>Get In Touch </button>
+            </div>
         </section>
 
         <section class="employee">

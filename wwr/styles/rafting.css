@@ -99,7 +99,7 @@ header img {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgba(108, 101, 93, 0.251);
     padding: 10px;
-    margin: 10px 0;
+
 }
 
 .history p {
@@ -128,7 +128,8 @@ header img {
     grid-template-columns: repeat(5, 1fr);
     background-color: rgba(108, 101, 93, 0.251);
     padding: 10px;
-    margin: 10px 0 0;
+    border-top: solid rgba(0, 0, 0, 0.242);
+
 }
 
 .adventure h2,
@@ -137,13 +138,11 @@ header img {
     text-align: center;
     align-self: center;
     margin-bottom: 10px;
-
 }
 
 .adventure img {
     width: 97%;
     height: 100px;
-
 }
 
 figcaption,
@@ -153,14 +152,20 @@ figcaption,
     margin-bottom: 15px;
 }
 
+.address {
+    background-color: rgba(2, 48, 70, 0.418);
+    padding-bottom: 10px;
+}
+
 .address h1,
 p {
     text-align: center;
-    margin: 10px 0;
+    padding: 10px;
 }
 
 .address p {
     line-height: 1px;
+    padding: 10px;
 }
 
 .employee {
@@ -171,6 +176,7 @@ p {
     justify-items: center;
     padding: 20px;
     width: 100%;
+    border-top: solid rgba(0, 0, 0, 0.135);
 
 }
 
@@ -183,19 +189,45 @@ p {
 
 .details {
     display: grid;
-    grid-template-columns: repeat(2, 35% 75%);
-    margin: 35px 0 10px;
-    padding: 10px 0;
     grid-template-columns: repeat(2, 1fr);
-    background-color: rgba(108, 101, 93, 0.251);
+    background-color: rgba(108, 101, 93, 0.155);
+    padding-bottom: 40px;
+}
+
+.inquiry,
+.reservation,
+.website-suggestion {
+    margin-top: 20px;
+
+}
+
+.inquiry input {
+    margin-left: 65px;
+}
+
+.reservation input {
+    margin-left: 20px;
+}
+
+.website-suggestion input {
+    margin-left: 32px;
+}
+
+.form {
+    grid-column: -1/2;
+}
+
+.radio {
+    grid-column: -1/2;
+
 }
 
 .form label,
 .form input,
 .news-later label,
 .news-later input {
-    display: block;
     width: 90%;
+    display: block;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -206,8 +238,25 @@ p {
 
 .details iframe {
     border: 2px solid rgba(201, 199, 199, 0);
-    width: 75%;
-    height: 300px;
+    width: 98%;
+    height: 100%;
+    padding: 10px 10px 0;
+
+}
+
+.message input {
+    padding: 50px;
+    display: block;
+}
+
+.message {
+    margin: 20px 0;
+
+}
+
+.container button {
+    padding: 10px;
+    margin-top: 5px;
 }
 
 footer {
@@ -298,7 +347,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(0, 31, 23, 0.616);
-    ;
 }
 
 .trips-images img {
