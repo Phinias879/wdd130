@@ -42,7 +42,7 @@ article {
 
 .hero img {
     display: block;
-    max-width: 840px;
+    width: 100%;
 }
 
 .hero h1 {
@@ -71,15 +71,15 @@ article {
 
 header {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
     background-color: rgb(47, 76, 114);
+    grid-template-columns: repeat(2, 10% 90%);
+
 }
 
 header nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 nav a {
@@ -88,14 +88,13 @@ nav a {
 }
 
 header img {
-    width: 120px;
+    width: 120%;
 }
 
 .history {
     display: grid;
     align-items: center;
     justify-items: center;
-    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgba(108, 101, 93, 0.251);
     padding: 10px;
@@ -269,7 +268,6 @@ footer {
 }
 
 .news-later {
-    max-width: 840px;
     display: grid;
     grid-template-columns: repeat(2, 35% 65%);
     align-content: center;
@@ -345,13 +343,15 @@ footer {
 
 .trips-images {
     display: flex;
-    justify-content: space-evenly;
+    padding: 5px;
+    justify-content: space-around;
     background-color: rgba(0, 31, 23, 0.616);
+    padding-bottom: 40%;
 }
 
 .trips-images img {
-    width: 175px;
-    height: 150px;
+    width: 95%;
+    height: 30%;
     border: 2px solid rgba(0, 0, 0, 0.164);
     border-radius: 10px;
     margin: 0 5px;
