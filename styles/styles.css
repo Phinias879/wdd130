@@ -22,12 +22,16 @@
 nav {
     background-color: rgb(10, 92, 134);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
 h1 {
@@ -56,14 +60,16 @@ p {
     margin-bottom: 3%;
 }
 
-main {
-    max-width: 600px;
-    margin: 15px;
+main,
+header,
+footer,
+.box {
+    max-width: 840px;
+    margin: 10px auto;
 
 }
 
 aside {
-    max-width: 600px;
     border-radius: 15px;
     color: rgb(14, 68, 105);
     line-height: 20px;
@@ -92,9 +98,11 @@ aside p {
 }
 
 footer {
-    margin-top: 20px;
     border-top: 5px solid black;
     text-align: center;
+    background-color: rgba(2, 23, 49, 0.808);
+    color: white;
+    padding: 40px;
 }
 
 footer p {
