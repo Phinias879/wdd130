@@ -5,22 +5,39 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
 .box {
     padding: 1rem;
     margin: 1rem;
-    border: 2px solid rgba(130, 128, 128, 0.4);
-    border-radius: 5px;
-    background-color: rgb(209, 199, 199);
+    border-top: 2px solid rgba(130, 128, 128, 0.4);
+    background-color: lightgrey;
+}
+
+.links {
+    border-top: 2px solid rgba(0, 0, 0, 0.158);
+    background-color: lightblue;
+    padding-bottom: 3%;
+}
+
+.links a {
+    color: blue;
+    padding: 4%;
+    text-decoration: none;
 
 }
 
-.box li {
-    padding: 5px;
-    margin-left: 20px;
+.links li {
+    padding: 0 0 2%;
+    margin-left: 6%;
+
 }
 
 nav {
-    background-color: rgb(10, 92, 134);
+    background-color: rgba(0, 0, 0, 0.861);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -34,30 +51,41 @@ nav a {
     text-decoration: none;
 }
 
-h1 {
-    color: rgb(13, 99, 142);
-    margin-bottom: 20px;
+header {
+    position: sticky;
+    top: 0;
+}
 
+h1 {
+    color: rgb(0, 0, 0);
+    margin: 0 0 0.3% 2%;
+    padding: 2%;
+
+}
+
+main {
+    background-color: whitesmoke;
 }
 
 main img {
     width: 100px;
-    height: 160px;
+    height: 155px;
     border: 1px solid rgb(186, 169, 169);
     border-radius: 10px;
-    padding: 2px;
+    padding: 0.3%;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin-left: 3%;
+    margin: 3% 3% 0;
     margin-bottom: 2px;
 }
 
 p {
-    padding: 0;
     word-spacing: 2px;
     line-height: 20px;
-    margin-bottom: 25px;
-    margin-bottom: 3%;
+    margin: 0 2%;
+    color: rgba(0, 0, 0, 0.959);
+    padding: 2%;
+    text-align: justify;
 }
 
 main,
@@ -65,12 +93,11 @@ header,
 footer,
 .box {
     max-width: 840px;
-    margin: 10px auto;
-
+    margin: 0.3% auto;
+    box-shadow: 0 0 15px whitesmoke;
 }
 
 aside {
-    border-radius: 15px;
     color: rgb(14, 68, 105);
     line-height: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -107,4 +134,5 @@ footer {
 
 footer p {
     text-align: center;
+    color: white;
 }
