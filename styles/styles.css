@@ -7,14 +7,40 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(0, 0, 0, 0.877);
+    background-color: rgba(0, 0, 0, 0.847);
 }
 
 .box {
     padding: 1rem;
     margin: 1rem;
     border-top: 2px solid rgba(130, 128, 128, 0.4);
-    background-color: lightgrey;
+    background-color: lightblue;
+    position: relative;
+}
+
+.box p {
+    word-spacing: 2px;
+    line-height: 20px;
+    padding: 0 0 2%;
+    margin: 0 2% 2%;
+    color: black;
+    text-align: justify;
+
+}
+
+.box img {
+
+    padding: 0 0 2%;
+    margin: 0 2%;
+    width: 70%;
+    height: auto;
+}
+
+.box h2 {
+    position: absolute;
+    bottom: 80%;
+    left: 30%;
+    color: rgb(0, 255, 157);
 }
 
 .links {
@@ -37,7 +63,7 @@ body {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.861);
+    background-color: rgba(0, 0, 0, 0.856);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -94,40 +120,11 @@ footer,
 .box {
     max-width: 840px;
     margin: 0.3% auto;
-    box-shadow: 0 0 15px whitesmoke;
-}
-
-aside {
-    color: rgb(14, 68, 105);
-    line-height: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    position: relative;
-}
-
-aside img {
-    width: 65%;
-    height: auto;
-
-}
-
-aside h2 {
-    color: white;
-    margin-bottom: 10px;
-    font-size: larger;
-    position: absolute;
-    left: 25%;
-    top: 10%;
-}
-
-aside p {
-    margin-top: 10px;
 }
 
 footer {
-    border-top: 5px solid black;
     text-align: center;
-    background-color: rgba(2, 23, 49, 0.808);
+    background-color: rgba(4, 58, 124, 0.808);
     color: white;
     padding: 40px;
 }
