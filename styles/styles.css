@@ -63,7 +63,6 @@ body {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.856);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -80,6 +79,7 @@ nav a {
 header {
     position: sticky;
     top: 0;
+    background-color: rgba(4, 58, 124, 0.808);
 }
 
 h1 {
