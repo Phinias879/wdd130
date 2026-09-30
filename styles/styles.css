@@ -8,6 +8,7 @@
 body {
     font-family: 'Segoe UI';
     background-color: rgba(0, 0, 0, 0.847);
+    font-size: 90%;
 }
 
 .box {
@@ -71,6 +72,7 @@ nav {
 
 nav a {
     color: white;
+    font-size: 90%;
     display: block;
     padding: 20px;
     text-decoration: none;
@@ -79,7 +81,7 @@ nav a {
 header {
     position: sticky;
     top: 0;
-    background-color: rgba(4, 58, 124, 0.808);
+    background-color: rgba(6, 39, 79, 0.983);
 }
 
 h1 {
