@@ -2,7 +2,7 @@
     --primary-color: rgba(227, 227, 105, 0.831);
     --heading-color: rgba(23, 11, 11, 0.845);
     --background-color: rgba(104, 253, 253, 0.929);
-    --body-font: Arial;
+    --body-font: 'Segoe UI';
 }
 
 * {
@@ -12,6 +12,7 @@
 }
 
 body {
+    font-size: 90%;
     font-family: var(--body-font);
     background-color: rgba(193, 244, 193, 0.142)
 }
@@ -46,11 +47,12 @@ article {
 
 .hero h1 {
     position: absolute;
-    top: 5%;
+    top: 15%;
     width: 100%;
     background-color: var(--primary-color);
     text-align: center;
     padding: 3%;
+    font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
 .hero article {
